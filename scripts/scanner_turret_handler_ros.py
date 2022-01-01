@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import rospy
-from sensor_turret_handler import SensorTurretHandler, CONSTS
+from rolly_controllers.constants import DIM
+from rolly_controllers.sensor_turret_handler import SensorTurretHandler
 import RPi.GPIO as GPIO
 from sensor_msgs.msg import LaserScan
 import numpy as np
